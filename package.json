@@ -4,13 +4,14 @@
   "description": "Created 11sep2021:10:45am Text file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite"
   },
   "author": "dajureact",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
-    "tailwindcss": "^3.3.2"
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.4"
   }
 }
