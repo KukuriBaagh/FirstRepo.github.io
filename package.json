@@ -1,4 +1,5 @@
 {
+  "homepage": "http://www.amitarya31208.tk/",
   "name": "firstrepo.github.io",
   "version": "1.0.0",
   "description": "Created 11sep2021:10:45am Text file",
@@ -20,7 +21,9 @@
     "dev": "vite",
     "start": "vite start",
     "build": "vite build",
-    "test": "echo Hello From First Repo"
+    "test": "echo Hello From First Repo",
+    "pre-deploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
