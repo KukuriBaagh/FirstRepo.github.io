@@ -1,9 +1,0 @@
-.heading{
-    text-align: center;
-    color: chocolate;
-    margin: auto;
-}
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

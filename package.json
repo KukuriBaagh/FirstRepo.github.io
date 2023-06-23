@@ -2,10 +2,11 @@
   "name": "firstrepo.github.io",
   "version": "1.0.0",
   "description": "Created 11sep2021:10:45am Text file",
-  "main": "src/js/index.js.js",
+  "main": "src/index.jsx",
   "devDependencies": {
     "autoprefixer": "*",
     "express": "*",
+    "gh-pages": "^5.0.0",
     "nodemon": "^2.0.22",
     "pg": "*",
     "postcss": "*",
@@ -16,7 +17,10 @@
     "vite": "*"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "start": "vite start",
+    "build": "vite build",
+    "test": "echo Hello From First Repo"
   },
   "keywords": [],
   "author": "",
