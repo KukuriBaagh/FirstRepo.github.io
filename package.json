@@ -5,16 +5,9 @@
   "description": "Created 11sep2021:10:45am Text file",
   "main": "src/index.jsx",
   "devDependencies": {
-    "autoprefixer": "*",
-    "express": "*",
     "gh-pages": "^5.0.0",
-    "nodemon": "^2.0.22",
-    "pg": "*",
-    "postcss": "*",
     "react": "*",
     "react-dom": "*",
-    "sequelize": "*",
-    "tailwindcss": "*",
     "vite": "*"
   },
   "scripts": {
@@ -27,5 +20,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "formik": "^2.4.2",
+    "framer-motion": "^10.12.18",
+    "install": "^0.13.0",
+    "react-router-dom": "^6.14.0"
+  }
 }
