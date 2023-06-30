@@ -1,15 +1,24 @@
-import React from 'react'
-import { ChakraProvider, FormControl, FormErrorMessage, FormLabel, Button, ButtonGroup } from '@chakra-ui/react'
-import { Formik } from 'formik'
 
 const LoginForm = () => {
   return (
-    <div>
-      <h1>Login Form</h1>
-    </div>
+    <VStack 
+        as="form"
+        mx="auto"
+        w={{ base: "90%", md: 500 }}
+        h="100vh"
+        justifyContent="center"
+        >
+        <Heading>Sign Up</Heading>
+        <FormControl>
+            <FormLabel>Username</FormLabel>
+            <Input name="username" placeholder="enter username..." />
+        </FormControl>
+        <FormControl>
+            <FormLabel>Password</FormLabel>
+            <Input name="password" placeholder="enter password..." />
+        </FormControl>
+    </VStack>
   )
 }
 
 export default LoginForm
-
-
