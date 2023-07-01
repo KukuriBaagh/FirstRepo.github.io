@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from './compoenents/static/Navbar';
+import Navbar from './compoenents/UXs/Navbar';
+import LoginForm from './compoenents/UXs/LoginForm';
 
-function App(){
+const App = () => {
     return (
         <>
-        <div>
-        < Navbar />
-        </div>
+        <Navbar />
+        <LoginForm />
         </>
     )
 }
 
 
-export default App;
+export default App
