@@ -10,6 +10,7 @@ function Navbar() {
                     <Tab>About</Tab>
                     <Tab>Profile</Tab>
                     <Tab>Contact</Tab>
+                    <Tab>Sign Up</Tab>
                 </TabList>
                 {/* <TabPanels>
                     <TabPanel>
