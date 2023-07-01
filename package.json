@@ -8,7 +8,8 @@
     "gh-pages": "^5.0.0",
     "react": "*",
     "react-dom": "*",
-    "vite": "*"
+    "vite": "*",
+    "yup": "^1.2.0"
   },
   "scripts": {
     "dev": "vite",
