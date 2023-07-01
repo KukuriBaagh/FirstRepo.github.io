@@ -1,9 +1,25 @@
 import React from 'react'
+import { Tabs, Tab, TabPanels, TabPanel, TabList } from '@chakra-ui/tabs'
 
-function Navbar(){
+function Navbar() {
     return (
         <>
-        <h1>Navbar Chakra UI</h1>
+            <Tabs isManual variant="enclosed" colorScheme="red">
+                <TabList>
+                    <Tab>Home</Tab>
+                    <Tab>About</Tab>
+                    <Tab>Profile</Tab>
+                    <Tab>Contact</Tab>
+                </TabList>
+                {/* <TabPanels>
+                    <TabPanel>
+                        <p>one!</p>
+                    </TabPanel>
+                    <TabPanel>
+                        <p>two!</p>
+                    </TabPanel>
+                </TabPanels> */}
+            </Tabs>
         </>
     )
 }
