@@ -16,7 +16,7 @@
     "start": "vite start",
     "build": "vite build",
     "test": "echo Hello From First Repo",
-    "pre-deploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
