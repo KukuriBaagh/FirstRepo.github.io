@@ -15,6 +15,9 @@ import {
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
+import Header from "./compoenents/Header";
+import Social from "./compoenents/Social";
+import Profile from "./compoenents/Profile";
 
 const App = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -52,6 +55,9 @@ const App = () => {
             onClick={toggleColorMode}
           ></IconButton>
         </Flex>
+        <Header />
+        <Social />
+        <Profile />
       </VStack>
     </>
   );
