@@ -8,8 +8,7 @@
     "gh-pages": "^5.0.0",
     "react": "*",
     "react-dom": "*",
-    "vite": "*",
-    "yup": "^1.2.0"
+    "vite": "*"
   },
   "scripts": {
     "dev": "vite",
@@ -22,12 +21,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@chakra-ui/react": "^2.7.1",
+    "@chakra-ui/react": "^2.8.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "formik": "^2.4.2",
-    "framer-motion": "^10.12.18",
-    "install": "^0.13.0",
-    "react-router-dom": "^6.14.0"
+    "framer-motion": "^10.15.1",
+    "react-icons": "^4.10.1"
   }
 }
