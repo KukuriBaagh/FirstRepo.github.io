@@ -21,14 +21,14 @@ import Profile from "./compoenents/Profile";
 
 const App = () => {
   const { colorMode, toggleColorMode } = useColorMode();
-  const isDark = colorMode == "dark";
+  const isDark = colorMode === "dark";
 
   return (
     <>
       <VStack p={5}>
         <Flex w="100%">
           <Heading ml="8" size="md" fontWeight="semibold" color="cyan.400">
-            amit
+            iamtheak
           </Heading>
           <Spacer></Spacer>
           <IconButton
