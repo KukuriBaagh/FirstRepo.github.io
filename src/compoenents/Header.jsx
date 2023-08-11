@@ -10,12 +10,13 @@ import {
   Image,
 } from "@chakra-ui/react";
 import React from "react";
+import myImage from "../assets/IMG_20190118_145234.jpg"
 
 const Header = () => {
   const { colorMode } = useColorMode();
-  const isDark = colorMode == "dark";
+  const isDark = colorMode === "dark";
 
-  const { isNotSmallerScreen } = useMediaQuery("min-width:600px");
+  const [ isNotSmallerScreen ] = useMediaQuery("(min-width:600px)");
 
   return (
     <Stack>
@@ -46,7 +47,7 @@ const Header = () => {
             Amit Arya
           </Text>
           <Text color={isDark ? "gray.200" : "gray.500"}>
-            My Description Of SKILLS
+            Full Stack Web + API Developer, Domain Name System Management, Database Management and A Traveller 
           </Text>
           <Button
             mt={8}
@@ -64,7 +65,7 @@ const Header = () => {
           backgroundColor="tranparent"
           boxShadow="lg"
           boxSize="300px"
-          src="https://avatars.githubusercontent.com/u/84636189?s=96&v=4"
+          src={myImage}
         ></Image>
       </Flex>
     </Stack>

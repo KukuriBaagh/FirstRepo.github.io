@@ -6,8 +6,6 @@
   "main": "src/index.jsx",
   "devDependencies": {
     "gh-pages": "^5.0.0",
-    "react": "*",
-    "react-dom": "*",
     "vite": "*"
   },
   "scripts": {
@@ -25,6 +23,8 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "framer-motion": "^10.15.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.10.1"
   }
 }
