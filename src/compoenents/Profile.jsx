@@ -80,6 +80,12 @@ const Profile = () => {
             <Icon color="black" p="4" as={GiAnvilImpact} w="24" h="24" />
             <Text color="black" p="4" fontSize="xl">
               Coming Soon...
+              <ul>
+                <li>Calculator</li>
+                <li>Mini ERP (MERN, HA Proxy Setup with Nginx)</li>
+                <li>Pharmaceutical Dictionary of Satls and Their Top Brands</li>
+                <li>Small Bussiness Ideas</li>
+              </ul>
             </Text>
           </Flex>
         </Flex>
