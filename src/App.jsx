@@ -18,6 +18,7 @@ import {
 import Header from "./compoenents/Header";
 import Social from "./compoenents/Social";
 import Profile from "./compoenents/Profile";
+import MyBlog from "./compoenents/MyBlog";
 
 const App = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -58,6 +59,7 @@ const App = () => {
         <Header />
         <Social />
         <Profile />
+        <MyBlog />
       </VStack>
     </>
   );
