@@ -6,7 +6,8 @@
   "main": "src/index.jsx",
   "devDependencies": {
     "gh-pages": "^5.0.0",
-    "vite": "*"
+    "vite": "*",
+    "esbuild": "*"
   },
   "scripts": {
     "dev": "vite",
