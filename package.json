@@ -3,11 +3,11 @@
   "name": "firstrepo.github.io",
   "version": "1.0.0",
   "description": "Created 11sep2021:10:45am Text file",
-  "main": "src/index.jsx",
+  "main": "app.js",
   "devDependencies": {
+    "esbuild": "*",
     "gh-pages": "^5.0.0",
-    "vite": "*",
-    "esbuild": "*"
+    "vite": "*"
   },
   "scripts": {
     "dev": "vite",
@@ -24,6 +24,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "framer-motion": "^10.15.1",
+    "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1"
